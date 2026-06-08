@@ -1,0 +1,295 @@
+{
+  "site": {
+    "nome": "Da Capivara Gourmet",
+    "descricao": "Site institucional e comercial para empresa de molhos artesanais gourmet",
+    "versao": "1.0.0",
+    "data_criacao": "2024-05-04",
+    "autor": "Desenvolvedor Web",
+    "idioma": "pt-BR"
+  },
+  "cores": {
+    "primaria": "#8B0000",
+    "primaria_escura": "#5C0000",
+    "secundaria_verde": "#228B22",
+    "secundaria_laranja": "#FF6B35",
+    "secundaria_marrom": "#8B5A3C",
+    "secundaria_dourado": "#D4AF37",
+    "neutro_branco": "#FFFFFF",
+    "neutro_preto": "#1a1a1a",
+    "neutro_cinza_claro": "#F5F5F5",
+    "neutro_cinza_medio": "#E0E0E0",
+    "neutro_cinza_escuro": "#4a4a4a"
+  },
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Molho de Pimenta tipo Sriracha",
+      "imagem": "images/sriracha.png",
+      "cor_principal": "#228B22",
+      "descricao": "Intenso, marcante e cheio de personalidade",
+      "perfil": "Picante e intenso",
+      "ardencia": "Média",
+      "tamanho": "220g / 200ml",
+      "usos": ["Carnes", "Lanches", "Massas", "Petiscos", "Sanduíches", "Receitas orientais"]
+    },
+    {
+      "id": 2,
+      "nome": "Molho de Pimenta tipo Sweet Chilli",
+      "imagem": "images/sweet-chilli.png",
+      "cor_principal": "#FF6B35",
+      "descricao": "Levemente adocicado, picante na medida certa e muito versátil",
+      "perfil": "Agridoce e levemente picante",
+      "ardencia": "Suave a Média",
+      "tamanho": "220g / 200ml",
+      "usos": ["Frango", "Peixe", "Camarão", "Petiscos", "Pratos asiáticos", "Rolinhos primavera"]
+    },
+    {
+      "id": 3,
+      "nome": "Molho Barbecue",
+      "imagem": "images/barbecue.png",
+      "cor_principal": "#8B5A3C",
+      "descricao": "Defumado, encorpado e irresistível",
+      "perfil": "Defumado e encorpado",
+      "ardencia": "Sem foco em ardência",
+      "tamanho": "200g / 200ml",
+      "usos": ["Churrasco", "Hambúrguer", "Costelinha", "Carnes grelhadas", "Frango", "Batatas"]
+    }
+  ],
+  "secoes": [
+    {
+      "id": "inicio",
+      "nome": "Hero Section",
+      "titulo": "Molhos com personalidade para transformar qualquer receita.",
+      "descricao": "Seção inicial impactante com logo, título forte e botões de ação",
+      "componentes": ["Logo", "Título", "Subtítulo", "Botões CTA", "Imagens dos produtos"]
+    },
+    {
+      "id": "sobre",
+      "nome": "Sobre a Marca",
+      "titulo": "Da Capivara Gourmet",
+      "descricao": "Apresentação da marca e seus valores",
+      "componentes": ["Texto principal", "Cards de destaque"]
+    },
+    {
+      "id": "produtos",
+      "nome": "Nossos Molhos",
+      "titulo": "Nossos Molhos",
+      "descricao": "Apresentação dos 3 produtos em cards interativos",
+      "componentes": ["Imagem do produto", "Descrição", "Destaques", "Informações nutricionais"]
+    },
+    {
+      "id": "como-usar",
+      "nome": "Como Usar",
+      "titulo": "Um molho para cada momento",
+      "descricao": "Sugestões de uso dos molhos",
+      "componentes": ["Grid de 8 ícones/cards com sugestões"]
+    },
+    {
+      "id": "comparacao",
+      "nome": "Comparação",
+      "titulo": "Encontre seu sabor favorito",
+      "descricao": "Tabela comparativa dos três molhos",
+      "componentes": ["Tabela com: Molho, Perfil, Ardência, Melhor Combinação"]
+    },
+    {
+      "id": "cta",
+      "nome": "Chamada para Venda",
+      "titulo": "Escolha seu sabor favorito ou leve os três.",
+      "descricao": "Seção motivadora com botões de ação",
+      "componentes": ["Título", "Subtítulo", "Botões WhatsApp e Instagram"]
+    },
+    {
+      "id": "contato",
+      "nome": "Contato",
+      "titulo": "Fale Conosco",
+      "descricao": "Formulário de contato e informações",
+      "componentes": ["Formulário", "Informações de contato", "Links sociais"]
+    },
+    {
+      "id": "footer",
+      "nome": "Rodapé",
+      "titulo": "Rodapé",
+      "descricao": "Links, informações e redes sociais",
+      "componentes": ["Logo", "Links de navegação", "Links sociais"]
+    }
+  ],
+  "responsividade": {
+    "desktop": {
+      "breakpoint": "1200px+",
+      "layout": "Full width",
+      "grid_produtos": "3 colunas"
+    },
+    "tablet": {
+      "breakpoint": "768px - 1199px",
+      "layout": "Adaptado",
+      "grid_produtos": "2 colunas"
+    },
+    "mobile": {
+      "breakpoint": "até 767px",
+      "layout": "Coluna única",
+      "grid_produtos": "1 coluna",
+      "menu": "Mobile hamburger"
+    }
+  },
+  "funcionalidades": [
+    {
+      "nome": "Menu Responsivo",
+      "descricao": "Menu que se adapta a dispositivos móveis",
+      "status": "ativo"
+    },
+    {
+      "nome": "Scroll Suave",
+      "descricao": "Navegação fluida entre seções",
+      "status": "ativo"
+    },
+    {
+      "nome": "Animações ao Scroll",
+      "descricao": "Elementos aparecem com efeitos ao entrar na viewport",
+      "status": "ativo"
+    },
+    {
+      "nome": "Formulário de Contato",
+      "descricao": "Validação e feedback ao usuário",
+      "status": "ativo"
+    },
+    {
+      "nome": "Integração WhatsApp",
+      "descricao": "Links diretos com mensagens pré-configuradas",
+      "status": "ativo"
+    },
+    {
+      "nome": "Links Dinâmicos",
+      "descricao": "Atualização de informações de contato via JavaScript",
+      "status": "ativo"
+    }
+  ],
+  "contato": {
+    "whatsapp": "+5511999999999",
+    "email": "contato@dacapivara.com.br",
+    "telefone": "(11) 99999-9999",
+    "cidade": "São Paulo, SP",
+    "instagram": "https://www.instagram.com/dacapivara.gourmet/",
+    "redes_sociais": ["Instagram", "WhatsApp"]
+  },
+  "arquivos": {
+    "estrutura": [
+      {
+        "arquivo": "index.html",
+        "descricao": "Arquivo principal - Estrutura HTML do site",
+        "tamanho_estimado": "~15KB"
+      },
+      {
+        "arquivo": "style.css",
+        "descricao": "Estilos CSS - Design e responsividade",
+        "tamanho_estimado": "~25KB"
+      },
+      {
+        "arquivo": "script.js",
+        "descricao": "Lógica JavaScript - Interatividade",
+        "tamanho_estimado": "~5KB"
+      },
+      {
+        "arquivo": "README.md",
+        "descricao": "Documentação completa",
+        "tamanho_estimado": "~10KB"
+      },
+      {
+        "arquivo": "CONFIGURACAO.md",
+        "descricao": "Instruções de configuração",
+        "tamanho_estimado": "~5KB"
+      },
+      {
+        "arquivo": "PREVIEW.html",
+        "descricao": "Página de demonstração visual",
+        "tamanho_estimado": "~10KB"
+      },
+      {
+        "arquivo": "CONFIGURACAO-RAPIDA.html",
+        "descricao": "Guia rápido de configuração",
+        "tamanho_estimado": "~8KB"
+      },
+      {
+        "arquivo": "metadata.json",
+        "descricao": "Metadados do projeto (este arquivo)",
+        "tamanho_estimado": "~5KB"
+      },
+      {
+        "arquivo": "images/",
+        "descricao": "Pasta para imagens",
+        "conteudo": ["logo.png", "sriracha.png", "sweet-chilli.png", "barbecue.png"]
+      }
+    ]
+  },
+  "melhorias_futuras": [
+    {
+      "titulo": "E-commerce Integrado",
+      "descricao": "Adicionar carrinho de compras e sistema de pagamento (Stripe, PayPal)",
+      "prioridade": "Alta"
+    },
+    {
+      "titulo": "Galeria de Fotos",
+      "descricao": "Seção com fotos dos produtos, uso e cliente",
+      "prioridade": "Alta"
+    },
+    {
+      "titulo": "Blog de Receitas",
+      "descricao": "Seção com receitas que usam os molhos",
+      "prioridade": "Média"
+    },
+    {
+      "titulo": "Avaliações de Clientes",
+      "descricao": "Sistema de reviews e testemunhas",
+      "prioridade": "Média"
+    },
+    {
+      "titulo": "Localização em Mapa",
+      "descricao": "Integração do Google Maps para localização física",
+      "prioridade": "Baixa"
+    },
+    {
+      "titulo": "Newsletter",
+      "descricao": "Cadastro para receber notícias e promoções",
+      "prioridade": "Média"
+    },
+    {
+      "titulo": "Tema Dark",
+      "descricao": "Opção de tema escuro para o site",
+      "prioridade": "Baixa"
+    },
+    {
+      "titulo": "Chat ao Vivo",
+      "descricao": "Atendimento em tempo real via chat",
+      "prioridade": "Média"
+    },
+    {
+      "titulo": "Rastreamento de Pedidos",
+      "descricao": "Sistema para rastrear pedidos",
+      "prioridade": "Alta"
+    },
+    {
+      "titulo": "SEO Otimizado",
+      "descricao": "Otimização completa para buscadores",
+      "prioridade": "Alta"
+    }
+  ],
+  "performance": {
+    "lighthouse_score_target": "90+",
+    "tempo_carregamento_target": "<2s",
+    "dispositivos_suportados": ["Desktop", "Tablet", "Smartphone"],
+    "navegadores_testados": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  "tecnologias": {
+    "frontend": ["HTML5", "CSS3", "JavaScript"],
+    "features": ["Flexbox", "CSS Grid", "Animações CSS", "Intersection Observer"],
+    "sem_dependencias": true,
+    "sem_frameworks": true
+  },
+  "notas": [
+    "Site sem dependências externas - totalmente autossuficiente",
+    "Totalmente responsivo - funciona em todos os tamanhos de tela",
+    "Otimizado para performance - carregamento rápido",
+    "Pronto para SEO - estrutura semântica",
+    "Fácil de manter - código limpo e comentado",
+    "Pronto para deployment - basta fazer upload de arquivos"
+  ]
+}
